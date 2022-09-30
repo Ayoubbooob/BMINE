@@ -47,23 +47,20 @@ class ResultPage extends StatelessWidget {
                   children: [
                     Text(
                       level,
-                      // '${_person.getLevel()}',
                       style: kResult,
                     ),
                     Text(
                       bmi,
-                      style: kBMIText, //Theme.of(context).textTheme.headline2
+                      style: kBMIText,
                     ),
                     const Text(
                       'Normal BMI range:\n18.5 - 25 kg/m2',
-                      style:
-                          kLabelTextStyle, //Theme.of(context).textTheme.bodyMedium)
+                      style: kLabelTextStyle,
                     ),
                     Text(
                       resultMsg,
                       style: kRangeMsg,
-                      textAlign: TextAlign
-                          .center, //Theme.of(context).textTheme.bodyMedium
+                      textAlign: TextAlign.center,
                     ),
                   ],
                 ),

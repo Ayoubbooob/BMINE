@@ -43,10 +43,7 @@ class _MyCardState extends State<MyCard> {
             color: widget.gender == widget.genderSelected
                 ? const Color.fromARGB(255, 30, 41, 119)
                 : const Color(0xFF1D1F33),
-
             elevation: 5.0,
-
-            // color: const Color(0xFF1D1F33),
             child: widget.cardChild,
           ),
         ),

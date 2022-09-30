@@ -12,15 +12,15 @@ class CustomIconContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: const EdgeInsets.symmetric(vertical: 15),
       margin: const EdgeInsets.all(15.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Expanded(
             child: Icon(
               iconData,
-              size: 65.0,
+              size: 75.0,
             ),
           ),
           const SizedBox(

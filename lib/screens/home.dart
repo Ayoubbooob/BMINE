@@ -26,7 +26,6 @@ class _HomeScreenState extends State<HomeScreen> {
   int _age = 20;
   Gender genderSelected = Gender.male;
   int index = 1;
-  // Person _person = Person(_currentSliderValue, _weight);
 
   updateCardSelectedIndex(Gender gender) {
     setState(() {
@@ -36,8 +35,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Person person = Person(_currentSliderValue, _weight);
-
     var size = MediaQuery.of(context).size;
     var screenHieght = size.height;
     return Container(
@@ -56,8 +53,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       updateCardSelectedIndex(Gender.male);
                     },
                     genderSelected: genderSelected,
-                    // cardHeight: screenHieght / 4,
-                    // opacity: 0.9,
                     cardChild: const CustomIconContent(
                         iconData: FontAwesomeIcons.mars, contentText: 'MALE'),
                   ),

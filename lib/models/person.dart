@@ -33,7 +33,7 @@ class Person {
       _msg = 'You have a Moderately obese situation';
     } else if (_bmi >= 23.0) {
       _level = 'Overweight I';
-      _msg = 'You have a normal body weight.\nGood Job!';
+      _msg = 'You have a higher than normal body weight. Try to exercise more.';
     } else if (_bmi >= 18.5) {
       _level = 'Normal';
       _msg = 'You have a normal body weight.\nGood Job!';
