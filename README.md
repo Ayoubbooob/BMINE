@@ -44,6 +44,7 @@ What you need to have installed
 * Scale more the app to provide more features for the user 
 
 
-## Thank You ❤
-* Please ⭐ this repo and share it with others.
+## Find this repository useful? ❤
+* Support it by ⭐ and share it with others.
+* Also, <a href="https://github.com/Ayoubbooob">follow me</a> on GitHub for my next creations! 🤩
 
