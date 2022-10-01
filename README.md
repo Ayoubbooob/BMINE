@@ -7,7 +7,7 @@ A flutter mobile application whose main purpose is to help you discover your bod
 
 ## About the project 🔗
 
-This project was developed using Flutter for the UI, it's simple and there is no backend
+This project was developed using Flutter for the UI, it's simple and there is no backend.
 I've used:
 * MVC artchitecture to structure the project.
 * StatefulWidget to update the screen.
@@ -45,5 +45,5 @@ What you need to have installed
 
 
 ## Thank You ❤
-Please ⭐ this repo and share it with others.
+* Please ⭐ this repo and share it with others.
 
